@@ -1,0 +1,97 @@
+﻿@using ArtTalesFull.Abstractions;
+@using Microsoft.AspNetCore.Identity;
+@using ArtTalesFull.Entities;
+@inject IUnitOfWork unitOfWork
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    ViewData["Title"] = "Management";
+}
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/lib/font-awesome/css/all.css" />
+<link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+<div class="team-grid">
+   <div class="holder">
+      <table class="table">
+         <thead>
+            <tr>
+               <th scope="col">ID</th>
+               <th scope="col">Username</th>
+               <th scope="col">Avatar</th>
+               <th scope="col">Actions</th>
+               <th scope="col">Profile</th>
+            </tr>
+         </thead>
+         <tbody>
+            @{
+            var users = await unitOfWork.UserRepository.GetAllAsync();
+            foreach(var user in users) {
+            <tr >
+               <td>@user.Id</td>
+               <td>@user.AppUsername</td>
+               <td><img class="box" src="/images/@user.ProfilePic" style="max-width: 80px;"></td>
+               <td>
+                                @if (user.Id != "6101764e-855a-461f-94f4-62c7a3527ea5")
+                                {
+                                    <button type="button" id="open" data-toggle="modal" data-target="#editmodal" onclick="setEditIndex('@user.Id')" class=" btn-icon btn-simple btn btn-success btn-sm" style="margin-right: 10px;">
+                                        <i class="fa-solid fa-pen-to-square"></i>
+                                    </button>
+                                    <button type="button" id="open" data-toggle="modal" data-target="#deletemodal" onclick="setDeleteIndex('@user.Id')" class=" btn-icon btn-simple btn btn-danger btn-sm">
+                                        <i class="fa-solid fa-trash-can"></i>
+                                    </button>
+                                }
+               </td>
+               <td class="">
+                  <button type="button" class=" btn-icon btn-simple btn btn-info btn-sm">
+                    <i class="fa-solid fa-user"></i>
+                  </button>
+               </td>
+            </tr>
+            }
+            }
+         </tbody>
+      </table>
+   </div>
+</div>
+
+<div id="editmodal" class="modal fade">
+   <div id="modal" class="modal-dialog" role="document">
+      <div class="modal-content" id="editUserModalForPartial">
+      </div>
+   </div>
+</div>
+<div id="deletemodal" class="modal fade">
+   <div id="modal" class="modal-dialog" role="document">
+      <div class="modal-content" id="deleteUserModalForPartial">
+      </div>
+   </div>
+</div>
+<script>
+   function setEditIndex(i){
+       $.ajax({
+           type: "GET",
+           url: "/Admin/GetEditUserPartialView",
+           data:{
+               id: i
+           }
+       }).done(function (partialViewResult){
+           $("#editUserModalForPartial").html(partialViewResult);
+       });
+   }
+   
+   function setDeleteIndex(i){
+       $.ajax({
+           type: "GET",
+           url: "/Admin/GetDeleteUserPartialView",
+           data:{
+               id: i
+           }
+       }).done(function (partialViewResult){
+           $("#deleteUserModalForPartial").html(partialViewResult);
+       });
+   }
+</script>

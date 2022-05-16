@@ -1,0 +1,31 @@
+﻿<link rel="stylesheet" href="~/css/modal.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+<script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+@if(Model == null){
+<div class="modal-content">
+   <form id="postForm" method="post" asp-controller="Home" enctype="multipart/form-data" asp-action="UploadPost">
+      <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+      <div class="modal-header">
+         <div class="titleModal modal-title h4">Make a new post</div>
+         <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <div class="nameContainer"><label class="subTitleModal">Your account has been disabled. Please ocntact administration for more information.</label>
+         </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="submitClose btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+   </form>
+</div>
+
+}
+
+<script>
+
+
+</script>
+
+<partial name="_ValidationScriptsPartial" />

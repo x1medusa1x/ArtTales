@@ -1,0 +1,237 @@
+﻿@model UploadModel
+<link rel="stylesheet" href="~/css/modal.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+<script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="modal-content">
+   <form id="postForm" method="post" asp-controller="Home" enctype="multipart/form-data" asp-action="EditPost">
+      <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+      <div class="modal-header">
+         <div class="titleModal modal-title h4">Make a new post</div>
+         <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <div class="nameContainer"><label class="uploadInput">Edit the name</label>
+            <input asp-for="Name" placeholder="Name" type="text" class="nameInput form-control" value="@Model.ModalName">
+            <span asp-validation-for="Name" class="text-danger"></span>
+         </div>
+         <div class="nameContainer"><label class="uploadInput">Add a headline</label>
+            <input asp-for="Headline" placeholder="Headline" type="text" class="headlineInput form-control" value="@Model.ModalHeadline">
+            <span asp-validation-for="Headline" class="text-danger"></span>
+         </div>
+         <div class="descriptionContainer"><label class="uploadInput">Add a description</label>
+             @Html.TextArea("Description", @Model.ModalDescription, new {@class = "descriptionInput form-control", @placeholder = "Description"});
+            <span asp-validation-for="Description" class="text-danger"></span>
+         </div>
+         <div>
+            <section class="FileUploadContainer">
+               <label class="InputLabel"></label>
+               <p class="DragAndDropText">Upload your images:</p>
+               <button asp-for="FileImages" id="openUpload" type="button" class="UploadFileButton">
+               <i class="fa fa-upload" style="font-size:15px;"></i> 
+               <span> Upload files</span>
+               </button>
+               <input asp-for="FileImages" style="opacity: 0" name="FileImages" type="file" title="Upload Images" accept=".jpg,.png,.jpeg" onchange="preview_image();" multiple id="uploadFile">
+            </section>
+            <span asp-validation-for="FileImages" class="text-danger"></span>
+            <div id="image_preview">
+               <div class="row">
+               </div>
+            </div>
+         </div>
+         <div class="previewImageArea">
+            <input asp-for="PreviewImage" style="display: none" name="PreviewImage" class="PreviewImage">
+         </div>
+      <input asp-for="DeletedImages" style="display: none" name="DeletedImages" class="DeletedImages" id="DeletedImages" >
+      <input asp-for="NewStringImages" style="display: none" name="NewStringImages" class="NewStringImages" id="NewStringImages" >
+      <input asp-for="ArtworkId" style="display: none" name="ArtworkId" class="ArtworkId" id="ArtworkId">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="submitClose btn btn-primary" data-dismiss="modal">Close</button>
+        <button type="submit" value="Upload" class="submitUpload btn btn-secondary">Save Changes</button>
+      </div>
+   </form>
+</div>
+
+<script>
+var uploadedImages = JSON.parse('@Html.Raw(Json.Serialize(Model.StringImages))');
+var stringImages = [];
+var deletedImages = [];
+
+var imageCounter = 0;
+
+if (uploadedImages.length >= 1 && document.getElementsByClassName("previewImage").length === 0) {
+    $('.previewImageArea').append("<label class='uploadInput previewText mt-4'>Select preview image</label>");
+    $('.previewImageArea').append("<div class='previewImage'></div>");
+    $('.previewImage').append("<select name='PreviewImage' onchange='setPreviewImage(-1)' class='form-select previewImageSelect' aria-label=''></select>");
+}
+
+uploadedImages.forEach((image, key) => {
+    var previewImage = JSON.parse('@Html.Raw(Json.Serialize(Model.PreviewImage))');
+    $('#image_preview .row').append("<div class='col-md-4 col-lg-4 col-sm-4 col-xs-12 image_" + imageCounter + " item'><div class='box uploadedImage' style='background-image:url(/images/" + image.image + ");'><div class='cover'><i onclick='deleteImage(event)' id='delete_" + imageCounter + "' style='color: white; width: 100%; font-size: 35px; text-align: center;' class='fa fa-trash'><br>");
+    $('.previewImageSelect').append("<option " + (previewImage === (key + 1) ? " selected " : " ") + " class='option_" + (key + 1) + "' value=" + (key + 1) + ">" + (key + 1) + "</option>");
+    imageCounter = key;
+    stringImages.push(image.image);
+});
+
+setPreviewImage(1);
+
+
+$('#openUpload').click(function() {
+    $('#uploadFile').trigger('click');
+
+});
+
+var imageArray = [];
+var images = [];
+
+function stringify(obj) {
+    const replacer = [];
+    for (const key in obj) {
+        replacer.push(key);
+    }
+    return JSON.stringify(obj, replacer);
+}
+
+$("#uploadFile").change(function() {
+    if (images.length >= 1 && document.getElementsByClassName("previewImage").length === 0) {
+        $('.previewImageArea').append("<label class='uploadInput previewText mt-4'>Select preview image</label>");
+        $('.previewImageArea').append("<div class='previewImage'></div>");
+        $('.previewImage').append("<select name='PreviewImage' onchange='setPreviewImage(-1)' class='form-select previewImageSelect' aria-label=''></select>");
+        var length = (stringImages.length - deletedImages.length) === 0 ? 0 : (stringImages.length - deletedImages.length);
+        for (var i = 0; i < images.length; i++)
+            $('.previewImageSelect').append("<option class='option_" + (i + length + 1) + "' value=" + (i + length + 1) + ">" + (i + length + 1) + "</option>");
+        setPreviewImage(1);
+    }
+});
+
+function preview_image() {
+    var total_files = document.getElementById("uploadFile").files.length;
+
+    for (var i = 0; i < total_files; i++) {
+        var photo = URL.createObjectURL(event.target.files[i]);
+        var image = (stringImages.length - deletedImages.length) === 0 ? 0 : (stringImages.length - deletedImages.length)
+        $('#image_preview .row').append("<div class='col-md-4 col-lg-4 col-sm-4 col-xs-12 image_" + (image + imageCounter) + " item'><div class='box uploadedImage' style='background-image:url(" + photo + ");'><div class='cover'><i onclick='deleteImage(event)' id='delete_" + (image + imageCounter) + "' style='color: white; width: 100%; font-size: 35px; text-align: center;' class='fa fa-trash'><br>");
+        imageCounter++;
+        imageArray.push(photo);
+        images.push(event.target.files[i]);
+        var length = (stringImages.length - deletedImages.length) + images.indexOf(event.target.files[i]) === 0 ? 0 : (stringImages.length - deletedImages.length) + images.indexOf(event.target.files[i]);
+        $('.previewImageSelect').append("<option class='option_" + (length + 1) + "' value=" + (length + 1) + ">" + (length + 1) + "</option>");
+    }
+
+}
+
+function inArray(arr, item) {
+    return (arr.indexOf(item) !== -1);
+}
+
+function getIndex(array, value) {
+    for (var k = 0; k < array.length; k++) {
+        if ('url("' + array[k] + '")' == value)
+            return k;
+    }
+    return -1;
+}
+
+function getStringImageIndex(array, value){
+    for (var k = 0; k < array.length; k++) {
+        if (array[k] == value)
+            return k;
+    }
+    return -1;
+}
+
+function FileListItems(files) {
+    var b = new ClipboardEvent("").clipboardData || new DataTransfer()
+    for (var i = 0, len = files.length; i < len; i++) b.items.add(files[i])
+    return b.files
+}
+
+function deleteImage(e) {
+
+    let newImages = [];
+
+    stringImages.forEach(image => {
+        if(inArray(deletedImages, image) === false){
+            newImages.push(image);
+        }
+    });
+
+    images.forEach(image => {
+        newImages.push(image);
+    })
+
+    if (getIndex(imageArray, e.target.parentElement.parentElement.style.backgroundImage) > -1) {
+        let index = getIndex(imageArray, e.target.parentElement.parentElement.style.backgroundImage);
+        $(e.target.parentElement.parentElement.parentElement).remove();
+        imageArray.splice(index, 1);
+        images.splice(index, 1);
+        newImages.splice(index, 1);
+        $('.previewImageSelect').remove();
+        $('.previewImage').append("<select name='PreviewImage' onchange='setPreviewImage(-1)' class='form-select previewImageSelect' aria-label=''></select>");
+        $(".previewImageSelect").find('.option_' + (index + 1)).remove();
+        for (var i = 0; i < newImages.length; i++)
+            $('.previewImageSelect').append("<option class='option_" + (i + 1) + "' value=" + (i + 1) + ">" + (i + 1) + "</option>");
+        if (images.length === 0 && stringImages.length == deletedImages.length) {
+            $('.previewText').remove();
+            $('.previewImage').remove();
+            document.getElementById("uploadFile").files = new FileListItems([]);
+        }
+        imageCounter--;
+    } else {
+        if(getStringImageIndex(stringImages, e.target.parentElement.parentElement.style.backgroundImage.slice(13, -2)) > -1){
+            let index = getStringImageIndex(stringImages, e.target.parentElement.parentElement.style.backgroundImage.slice(13, -2));
+            $(e.target.parentElement.parentElement.parentElement).remove();
+            deletedImages.push(e.target.parentElement.parentElement.style.backgroundImage.slice(13, -2));
+            newImages.splice(index, 1);
+            $('.previewImageSelect').remove();
+            $('.previewImage').append("<select name='PreviewImage' onchange='setPreviewImage(-1)' class='form-select previewImageSelect' aria-label=''></select>");
+            $(".previewImageSelect").find('.option_' + (index + 1)).remove();
+            for (var i = 0; i < newImages.length; i++)
+                $('.previewImageSelect').append("<option class='option_" + (i + 1) + "' value=" + (i + 1) + ">" + (i + 1) + "</option>");
+            if (images.length === 0 && stringImages.length == deletedImages.length) {
+                $('.previewText').remove();
+                $('.previewImage').remove();
+                document.getElementById("uploadFile").files = new FileListItems([]);
+            }
+            imageCounter--;
+        }else{
+            alert("ERROR!");
+        }
+    }
+
+}
+
+$(".submitUpload").click(function() {
+    let newImages = [];
+    if(stringImages.length > 0){
+        stringImages.forEach(stringImage => {
+            newImages.push(new File([stringImage], [stringImage], { type: "text/plain;charset=utf-8" }));
+        });
+    }
+
+    images.forEach(image => {
+        newImages.push(image);
+    });
+
+    if(newImages.length !== deletedImages.length){
+        document.getElementById("uploadFile").files = new FileListItems(newImages);
+    }else{
+        document.getElementById("uploadFile").files = new FileListItems([]);
+    }
+    document.getElementById("NewStringImages").value = stringify(stringImages);
+    document.getElementById("DeletedImages").value = stringify(deletedImages);
+    document.getElementById("ArtworkId").value = parseInt("@Model.Id");
+});
+
+function setPreviewImage(index) {
+    if (index === -1) {
+        $('.PreviewImage').attr('value', $('.previewImageSelect').val());
+    } else {
+        $('.PreviewImage').attr('value', index);
+    }
+}
+</script>
+
+<partial name="_ValidationScriptsPartial" />

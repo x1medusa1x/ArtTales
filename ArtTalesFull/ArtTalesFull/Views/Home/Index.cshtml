@@ -1,0 +1,79 @@
+﻿@using ArtTalesFull.Abstractions;
+@using Microsoft.AspNetCore.Identity;
+@using ArtTalesFull.Entities;
+@inject IUnitOfWork unitOfWork;
+@inject SignInManager<ApplicationUser> SignInManager;
+@inject UserManager<ApplicationUser> UserManager;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+
+<section class="py-1 text-center">
+   <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+         <h1 class="title">ArtTales</h1>
+         <p class="subTitle">
+            Discover amazing artworks and the artists behind them!
+         </p>
+      </div>
+   </div>
+</section>
+<section class="container-fluid homeButtons">
+    <button type="button" class="upload btn btn-secondary" onClick="setIndex()" id="open" data-toggle="modal" data-target="#showmodal">
+        UPLOAD
+    </button>
+    <button type="button" class="search btn btn-secondary">
+        Search
+    </button>
+    <input placeholder="Search" type="text" class="searchInput form-control" value="">
+</section>
+<div class="team-grid">
+   <div class="container">
+      <div class="row people">
+            @{
+                var users = await unitOfWork.UserRepository.GetAllAsync();
+                foreach (var user in users)
+                {
+                    var artworksForUser = await unitOfWork.ArtworkRepository.GetAllArtworksForUserAsync(user.Id);
+                    var maxLikesArtwork = await unitOfWork.ArtworkRepository.GetMaxLikesArtworkAsync(user.Id);
+
+                    if (user.Disabled != true && (artworksForUser.Count() > 0))
+                    {
+                        var previewPic = (await unitOfWork.ImageRepository.GetAllImagesForArtworkAsync(maxLikesArtwork.Id))[maxLikesArtwork.PreviewImage - 1].Image;
+                        <div class="col-md-4 col-lg-3 item">
+                            <div class="box" style="background-image:url(/images/@previewPic);">
+                                @{
+                                    var currentUser = (await UserManager.GetUserAsync(User)) != null ? (await UserManager.GetUserAsync(User)).Id : "";
+                                    if (currentUser == user.Id)
+                                    {
+                                        <div class="cover">
+                                            <a class= "name" asp-area="Identity" asp-page="/Account/Manage/Index">@user.AppUsername</a>
+                                        </div>
+                                    }
+                                }
+                            </div>
+         </div>
+         }
+         }
+         }
+      </div>
+   </div>
+</div>
+<div id="showmodal" class="modal fade">
+   <div id="modal" class="modal-dialog" role="document">
+      <div class="modal-content" id="uploadModalForPartial">
+      </div>
+   </div>
+</div>
+<script>
+   function setIndex(i){
+       $.ajax({
+           type: "GET",
+           url: "/Home/GetUploadPartialView"
+       }).done(function (partialViewResult){
+           $("#uploadModalForPartial").html(partialViewResult);
+       });
+   }
+</script>

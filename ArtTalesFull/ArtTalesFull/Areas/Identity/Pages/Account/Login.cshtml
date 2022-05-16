@@ -1,0 +1,47 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+}
+
+<link rel="stylesheet" href="~/css/auth.css" asp-append-version="true" />
+
+<div class="authRow">
+    <div class="col-md-6 authCol">
+        <section>
+            <form id="account" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-floating">
+                    <span as-for="Input.Email" class="authTitle">Email</span>
+                    <input asp-for="Input.Email" class="form-control authInput" autocomplete="email" aria-required="true" />
+                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+                </div>
+                <div class="form-floating">
+                    <span as-for="Input.Password" class="authTitle">Password</span>
+                    <input asp-for="Input.Password" class="form-control authInput" autocomplete="new-password" aria-required="true" />
+                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                </div>
+                <br/>
+                <div>
+                    <div class="checkbox">
+                        <label asp-for="Input.RememberMe" class="form-label authTitle">
+                            <input class="form-check-input" asp-for="Input.RememberMe" />
+                            @Html.DisplayNameFor(m => m.Input.RememberMe)
+                        </label>
+                    </div>
+                </div>
+                <div>
+                    <div class="text-center mt-4">
+                        <button id="login-submit" type="submit" class="btn authButton">Log in</button>
+                        <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl" class="btn authButton">Register</a>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

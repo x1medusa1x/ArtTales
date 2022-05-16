@@ -1,0 +1,33 @@
+﻿@page
+@model RegisterConfirmationModel
+@{
+    ViewData["Title"] = "Register confirmation";
+}
+
+<link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+
+<h1 class="title">@ViewData["Title"]</h1>
+
+<section class="py-1 text-center">
+   <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+         @{
+            if (@Model.DisplayConfirmAccountLink)
+            {
+        <p>
+            <a class="subTitle" id="confirm-link" href="@Model.EmailConfirmationUrl">Click here to confirm your account</a>
+        </p>
+            }
+            else
+            {
+        <p>
+                Please check your email to confirm your account.
+        </p>
+            }
+        }
+      </div>
+   </div>
+</section>
+
+
+

@@ -1,0 +1,32 @@
+﻿<link rel="stylesheet" href="~/css/modal.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+<script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+@model EditUserModel
+<div class="modal-content">
+   <form id="postForm" method="post" asp-controller="Admin" enctype="multipart/form-data" asp-action="DeleteUser">
+      <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+      <input asp-for="UserId" placeholder="Id" type="text" style="display: none" value="@Model.UserId">
+      <div class="modal-header">
+         <div class="titleModal modal-title h4">Delete user @Model.Username</div>
+         <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <div class="nameContainer"><label class="subTitleModal">Are you sure you want to delete this user?</label>
+         </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="submitClose btn btn-primary" data-dismiss="modal">Close</button>
+        <button type="submit" value="Upload" class="submitUpload btn btn-secondary">Delete user</button>
+      </div>
+   </form>
+</div>
+
+
+<script>
+
+
+</script>
+
+<partial name="_ValidationScriptsPartial" />

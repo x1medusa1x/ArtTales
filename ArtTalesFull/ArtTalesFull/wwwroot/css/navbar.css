@@ -1,0 +1,77 @@
+﻿.offcanvas-header {
+    color: black;
+    background: rgb(184, 38, 1);
+}
+
+.offcanvas-body {
+    background: black;
+}
+
+.offcanvas-body .nav-link {
+    color: #b82601;
+}
+
+.offcanvas-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem
+}
+
+
+.navbarMenu {
+    text-shadow: 1px 1px 0px #300a00;
+    font-weight: 900;
+    color: black!important;
+    font-size: 15px;
+}
+
+.navbarMenuDropdown {
+    text-shadow: 1px 1px 0px #300a00;
+    font-weight: 600;
+    color: black;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.navbarMenuLink {
+    text-shadow: 1px 1px 0px #300a00;
+    font-weight: 600;
+    color: black!important;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.navbarMenuLinkDisabled {
+    text-shadow: 2px 2px 0px rgb(75, 75, 75);
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(133, 130, 124) !important;
+    text-transform: uppercase;
+}
+
+.navbar {
+    background: black;
+    margin-bottom: 50px;
+}
+
+.navbar .navbar-brand {
+    text-shadow: 2px 2px 0px #300a00;
+    font-weight: 900;
+    font-size: 15px;
+    color: #b82601!important;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgb%280184, 38, 1%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e')!important;
+}
+
+.navbar .navbar-brand:hover {
+    text-shadow: 4px 4px 4px rgb(37, 31, 75);
+    font-weight: 900;
+    color: #b82601;
+}

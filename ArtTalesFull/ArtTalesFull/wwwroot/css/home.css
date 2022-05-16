@@ -1,0 +1,327 @@
+﻿.title {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0px #300a00;
+    color: #b82601;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.titleModal {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0px #300a00;
+    color: #b82601;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.subTitleModal {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0px #300a00;
+    color: #813772;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.uploadInput {
+    font-weight: bold;
+    letter-spacing: 2.2px;
+    margin-top: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-shadow: 1px 1px 0px rgb(175, 175, 175);
+    margin-bottom: 5px;
+}
+
+.nameInput,
+.descriptionInput,
+.headlineInput {
+    background: transparent;
+    border: 2px solid #b82601;
+    color: #b82601;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nameContainer input:focus,
+.nameContainer textarea:focus,
+.descriptionContainer input:focus,
+.descriptionContainer textarea:focus {
+    background: transparent !important;
+    border: 2px solid #b82601 !important;
+    color: #b82601 !important;
+    box-shadow: 0 0 3px #b82601 !important;
+    -moz-box-shadow: 0 0 3px #b82601 !important;
+    -webkit-box-shadow: 0 0 3px #b82601 !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline-offset: 0px !important;
+    outline: none !important;
+}
+
+.subTitle {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0px #300a00;
+    color: #813772;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.search,
+.search:focus,
+.search:hover {
+    float: right;
+    margin-right: 13px;
+    background-color: #b82601;
+    color: #062f4f;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-shadow: 1px 1px 0px #300a00;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.searchInput {
+    width: auto;
+    float: right;
+    margin-right: 10px;
+}
+
+.upload,
+.upload:focus,
+.upload:hover,
+.search,
+.search:focus,
+.search:hover,
+.submitClose,
+.submitClose:focus,
+.submitClose:hover,
+.submitUpload,
+.submitUpload:focus,
+.submitUpload:hover {
+    margin-left: 7px;
+    background-color: transparent !important;
+    border: 2px solid #b82601 !important;
+    color: #b82601 !important;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-shadow: 1px 1px 0px #300a00;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+    background-color: #062f4f;
+}
+
+.modal-dialog {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.upload:focus {
+    margin-left: 7px;
+    background-color: #b82601;
+    color: #062f4f;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-shadow: 1px 1px 0px #300a00;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.homeButtons {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 211px) {
+    .homeButtons {
+        margin-bottom: 95px;
+    }
+
+    .upload {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 426px) and (min-width: 212px) {
+    .homeButtons {
+        margin-bottom: 65px;
+    }
+
+    .search {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 221px) {
+    .searchInput {
+        max-width: 95px;
+    }
+
+    .search {
+        margin-bottom: 10px;
+    }
+}
+
+.container {
+    max-width: 100%;
+    padding: 0;
+}
+
+.row {
+    width: 100%;
+}
+
+.team-grid {
+    color: #313437;
+    background: linear-gradient( 34deg, rgba(134, 27, 11, 1) 0%, rgba(80, 34, 71, 1) 70% );
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.holder .table{
+    background-color: white;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.team-grid p {
+    color: #7d8285;
+}
+
+.team-grid .customCardItem {
+    width: 100%;
+}
+
+.team-grid a {
+    color: #b82601;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px #300a00;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.team-grid h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: inherit;
+}
+
+@media (max-width: 767px) {
+    .team-grid h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px;
+    }
+}
+
+.team-grid .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+    .team-grid .intro p {
+        margin-bottom: 0;
+    }
+
+.team-grid .people {
+    padding: 50px 0;
+    padding-left: 20px;
+}
+
+.team-grid .item {
+    margin-bottom: 30px;
+}
+
+    .team-grid .item .box {
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 280px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .team-grid .item .cover {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #81377275;
+        transition: opacity 0.15s ease-in;
+        opacity: 0;
+        padding-top: 80px;
+        color: #fff;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+        box-shadow: inset 0 0 100px black;
+    }
+
+    .team-grid .item:hover .cover {
+        opacity: 1;
+    }
+
+    .team-grid .item .name {
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    .team-grid .item .title {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #bbd8fb;
+        letter-spacing: 2px;
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+.team-grid .social {
+    font-size: 18px;
+}
+
+.team-grid .social a {
+    color: inherit;
+    margin: 0 10px;
+    display: inline-block;
+    opacity: 0.7;
+}
+
+.team-grid .social a:hover {
+    opacity: 1;
+}
+
+.btn-group {
+    width: 100%;
+    border-radius: 0.25rem !important;
+    border: 2px solid #b82601;
+    color: #b82601 !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+}

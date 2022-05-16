@@ -1,0 +1,50 @@
+﻿@model EditUserModel
+<link rel="stylesheet" href="~/css/modal.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+<script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="modal-content">
+   <form id="postForm" method="post" asp-controller="Admin" enctype="multipart/form-data" asp-action="EditUser">
+       <input asp-for="UserId" placeholder="Id" type="text" style="display: none" value="@Model.UserId">
+      <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+      <div class="modal-header">
+         <div class="titleModal modal-title h4">Edit user @Model.Username</div>
+         <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <div class="nameContainer"><label class="uploadInput">Edit the username</label>
+            <input asp-for="Username" placeholder="Username" type="text" class="nameInput form-control" value="@Model.Username">
+            <span asp-validation-for="Username" class="text-danger"></span>
+         </div>
+         <div class="nameContainer"><label class="uploadInput">Edit the email</label>
+            <input asp-for="Email" placeholder="Headline" type="text" class="headlineInput form-control" value="@Model.Email">
+            <span asp-validation-for="Email" class="text-danger"></span>
+         </div>
+         <div class="nameContainer"><label class="uploadInput">Edit the status</label>
+             <select asp-for="Disabled" class="form-select previewImageSelect selectDisabled">
+             </select>
+             <span asp-validation-for="Email" class="text-danger"></span>
+         </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="submitClose btn btn-primary" data-dismiss="modal">Close</button>
+        <button type="submit" value="Upload" class="submitUpload btn btn-secondary">Save Changes</button>
+      </div>
+   </form>
+</div>
+
+<script>
+    var selected = "@Model.Disabled";
+    if(selected === 'False'){
+        $(".selectDisabled").append("<option selected value='false'>false</option>");
+        $(".selectDisabled").append("<option value='true'>true</option>");
+    }
+    else{
+        $(".selectDisabled").append("<option value='false'>false</option>");
+        $(".selectDisabled").append("<option selected value='true'>true</option>");
+    }
+          
+</script>
+
+<partial name="_ValidationScriptsPartial" />

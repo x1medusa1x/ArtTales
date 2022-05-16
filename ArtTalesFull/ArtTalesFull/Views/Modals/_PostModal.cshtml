@@ -1,0 +1,32 @@
+﻿@model PostModel
+<link rel="stylesheet" href="~/css/modal.css" asp-append-version="true" />
+<div class="modal-header">
+   <div class="titleModal modal-title h4">
+      <div class="artworkTitle">@Model.Name</div>
+   </div>
+<button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
+<div class="modal-body">
+   <div class="artworkHeadline">@Model.Headline</div>
+   <div class="artworkDescription">@Model.Description</div>
+   <div class="team-grid">
+      <div class="container">
+         <div class="row people">
+                @{
+                    var images = Model.Images;
+                    foreach(var image in images)
+                    {
+                    <div class="item">
+                   <div class="box" style="background-image:url(/images/@image.Image);"></div>
+                </div>
+                    }
+            }
+         </div>
+      </div>
+   </div>
+   <div class="share">
+      
+   </div>
+</div>
+<div class="modal-footer">
+    <button type="button" class="submitClose btn btn-primary" data-dismiss="modal">Close</button>
+</div>

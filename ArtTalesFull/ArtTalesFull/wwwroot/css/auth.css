@@ -1,0 +1,84 @@
+﻿.authTitle {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0px #300a00;
+    color: #b82601;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.authCol {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 85%;
+    background: #062f4f;
+    padding-top: 55px;
+    padding-bottom: 70px;
+    border-radius: 10px;
+    padding-right: 70px;
+    padding-left: 70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.authRow {
+    height: 0;
+}
+
+.authInput {
+    background: transparent;
+    border: 2px solid #b82601;
+    color: #b82601;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.authCol input:focus,
+.authCol textarea:focus {
+    background: transparent !important;
+    border: 2px solid #b82601 !important;
+    color: #b82601 !important;
+    box-shadow: 0 0 3px #b82601 !important;
+    -moz-box-shadow: 0 0 3px #b82601 !important;
+    -webkit-box-shadow: 0 0 3px #b82601 !important;
+}
+
+input:focus,
+textarea:focus {
+    background: transparent !important;
+    border: 2px solid #b82601 !important;
+    color: #b82601 !important;
+    box-shadow: 0 0 3px #b82601 !important;
+    -moz-box-shadow: 0 0 3px #b82601 !important;
+    -webkit-box-shadow: 0 0 3px #b82601 !important;
+}
+
+
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline-offset: 0px !important;
+    outline: none !important;
+}
+
+.authButton {
+    text-transform: uppercase;
+    background-color: #b82601 !important;
+    text-shadow: 1px 1px 0px #031b2c;
+    text-align: center;
+    color: #062f4f;
+    font-size: 15px;
+    font-weight: 900;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.authButton:hover {
+    text-transform: uppercase;
+    background-color: #073c64 !important;
+    text-shadow: 1px 1px 0px #031b2c;
+    text-align: center;
+    color: #b82601;
+    font-size: 15px;
+    font-weight: 900;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
