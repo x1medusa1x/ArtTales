@@ -1,0 +1,113 @@
+﻿
+@using ArtTalesFull.Abstractions
+@using ArtTalesFull.Entities
+@using ArtTalesFull.Models
+@inject IUnitOfWork unitOfWork;
+@model string
+
+<link rel="stylesheet" href="~/css/user.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/auth.css" asp-append-version="true" />
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<div class="d-flex align-items-start">
+   <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <button class="nav-link active" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="true">User Details</button>
+      <button class="nav-link" id="v-pills-gallery-tab" data-bs-toggle="pill" data-bs-target="#v-pills-gallery" type="button" role="tab" aria-controls="v-pills-gallery" aria-selected="false">Gallery</button>
+   </div>
+   <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+         <div class="team-grid">
+            <div class="container">
+               <div class="row people">
+                  <div class="float-right">
+                     <div class="col-md-4 col-lg-3 customCardItem item">
+                        @{
+                        var profilePic = (await unitOfWork.UserRepository.GetByIdAsync(Model)).ProfilePic;
+                        <div class="box" style="background-image:url(/images/@profilePic);">
+                        </div>
+                        }
+                     </div>
+                  </div>
+                  <div class="float-left">
+                     <div class="item">
+                        <div class="box details">
+                           @{
+                           var username = (await unitOfWork.UserRepository.GetByIdAsync(Model)).AppUsername;
+                           var email = (await unitOfWork.UserRepository.GetByIdAsync(Model)).Email;
+                           <div class="postDetails">UserName: @username</div>
+                           <div class="postDetails">Email: @email</div>
+                           }
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="tab-pane fade" id="v-pills-gallery" role="tabpanel" aria-labelledby="v-pills-gallery-tab">
+         <div class="team-grid">
+            <div class="container">
+               <div class="row people">
+                        @{
+                            var artworks = await unitOfWork.ArtworkRepository.GetAllArtworksForUserAsync(Model);
+                            for(int i = 0; i < artworks.Count(); i++)
+                            {
+                                var artwork = artworks[i];
+                                <div class="postBox" onclick="setIndex(@artwork.Id)" id="open" data-toggle="modal" data-target="#showmodal">
+                     <div class="float-right">
+                        <div class="col-md-4 col-lg-3 customCardItem item">
+                           @{
+                               var aaa = (artwork.PreviewImage);
+                               var previewPic = (await unitOfWork.ImageRepository.GetAllImagesForArtworkAsync(artwork.Id))[artwork.PreviewImage - 1].Image;
+                               <div class="box" style="background-image:url(/images/@previewPic);">
+                               </div>
+                           }
+                        </div>
+                     </div>
+                     <div class="float-left">
+                        <div class="item">
+                           <div class="box details">
+                              <div class="postName">@artwork.Name</div>
+                              <div class="postHeadline">@artwork.Headline</div>
+                              <div class="postDescription">
+                                 The Artwork contains @((await unitOfWork.ImageRepository.GetAllImagesForArtworkAsync(artwork.Id)).Count()) images and
+                                 has @artwork.Likes likes
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  }
+                  }
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div id="showmodal" class="modal fade">
+   <div id="modal" class="modal-dialog" role="document">
+      <div class="modal-content" id="postModalForPartial">
+      </div>
+   </div>
+</div>
+<div id="editmodal" class="modal fade">
+   <div id="modal" class="modal-dialog" role="document">
+      <div class="modal-content" id="editModalForPartial">
+      </div>
+   </div>
+</div>
+
+<script>
+
+   function setIndex(i){
+       $.ajax({
+               type: "GET",
+               url: "/User/GetPostPartialView",
+               data: {
+                   index: i
+               }
+       }).done(function (partialViewResult){
+               $("#postModalForPartial").html(partialViewResult);
+       });
+   }
+</script>

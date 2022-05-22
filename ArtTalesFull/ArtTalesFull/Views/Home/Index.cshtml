@@ -52,6 +52,20 @@
                                             <a class= "name" asp-area="Identity" asp-page="/Account/Manage/Index">@user.AppUsername</a>
                                         </div>
                                     }
+
+                                    else {
+                                        <div class="cover">
+                                            @{
+                                                var dict = new Dictionary<string, string>
+                                                {
+                                                    {"id", user.Id}
+                                                };
+
+                                    }
+                                            <a class="name" asp-controller="Home" asp-action="UserProfile" asp-all-route-data="@dict">@user.AppUsername</a>
+
+                                        </div>
+                                    }
                                 }
                             </div>
          </div>
