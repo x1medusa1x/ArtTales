@@ -1,4 +1,4 @@
-﻿@model PostModel
+﻿@model PostModel;
 <link rel="stylesheet" href="~/css/modal.css" asp-append-version="true" />
 <link rel="stylesheet" href="~/lib/font-awesome/css/all.css" />
 <div class="modal-header">
@@ -27,7 +27,7 @@
    <div class="share" style="padding-top: 10px">
     <i class="fa-solid fa-share"></i>
    </div>
-   <div class="likes" style="padding-top: 10px">
+   <div class="likes" onclick="onClick()" style="padding-top: 10px">
     <i class="fa-solid fa-thumbs-up"></i>
    </div>
 </div>
@@ -36,17 +36,52 @@
 </div>
 
 <script>
+
+var liked = 0;
 if("@Model.CurrentUser" !== "" && "@Model.UserId" === "@Model.CurrentUser"){
     $('.likes').remove();
     $('.share').remove();
-
 }
-
- var link = '@($"{Url.Action("UserProfile", "Home", null, Url.ActionContext.HttpContext.Request.Scheme)}/{Model.UserId}?index={Model.ArtworkId + 1}")';
+var link = '@($"{Url.Action("UserProfile", "Home", null, Url.ActionContext.HttpContext.Request.Scheme)}/{Model.UserId}?index={Model.ArtworkId + 1}")';
 $("#closeBtn, #closeBtnIcon").click(function() {
     $("#showloadmodal").modal('hide');
 });
 $('.share').click(function() {
     navigator.clipboard.writeText(link);
 });
+
+function onClick(){
+    if(liked % 2 === 0){
+        var likeModel = {
+            ArtworkId: "@Model.Id",
+            Value: 1
+        }
+        $.ajax({
+        type: 'POST',
+        url: '/Home/LikePost',
+        dataType: 'json',
+        contentType: 'application/json charset=utf-8',
+        data: JSON.stringify(likeModel),
+        success: function (result) {
+            
+        }
+        });
+    }else{
+        var likeModel = {
+            ArtworkId: "@Model.Id",
+            Value: -1
+        }
+        $.ajax({
+        type: 'POST',
+        url: '/Home/LikePost',
+        dataType: 'json',
+        contentType: 'application/json charset=utf-8',
+        data: JSON.stringify(likeModel),
+        success: function (result) {
+            
+        }
+        });
+    }
+    liked++;
+}
 </script>

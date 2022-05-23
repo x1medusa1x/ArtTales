@@ -217,5 +217,12 @@ namespace ArtTalesFull.Services
                 }
             }
         }
+
+        public async Task LikePostAsync(int artworkId, int value)
+        {
+            var artwork = await unitOfWork.ArtworkRepository.GetByIdAsync(artworkId);
+            artwork.Likes += value;
+            await unitOfWork.SaveAsync();
+        }
     }
 }

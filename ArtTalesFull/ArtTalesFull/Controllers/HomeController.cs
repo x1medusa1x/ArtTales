@@ -74,5 +74,13 @@ namespace ArtTalesFull.Controllers
 
             return Redirect("/Identity/Account/Manage");
         }
+
+        [HttpPost]
+        public async Task<IActionResult> LikePost([FromBody] LikeModel likeModel)
+        {
+            await artworkService.LikePostAsync(likeModel.ArtworkId, likeModel.Value);
+
+            return Ok();
+        }
     }
 }
