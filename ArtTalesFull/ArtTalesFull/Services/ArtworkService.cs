@@ -24,12 +24,27 @@ namespace ArtTalesFull.Services
             return null;
         }
 
-        public async Task<PostModel> GetPostAsync(int index)
+        public async Task<PostModel> GetPostAsync(int index, string id, string currentUser)
         {
             var artwork = await unitOfWork.ArtworkRepository.GetArtworkByIdAsync(index);
+            var artworks = await unitOfWork.ArtworkRepository.GetAllArtworksForUserAsync(id);
+            var artworkId = 0;
+
+            for (var i = 0; i < artworks.Count; i++)
+            {
+                if (artworks[i].Id == artwork.Id)
+                {
+                    artworkId = i;
+                    break;
+                }
+            }
+
             return new PostModel
             {
                 Id = index,
+                ArtworkId = artworkId,
+                UserId = id,
+                CurrentUser = currentUser,
                 Images = await unitOfWork.ImageRepository.GetAllImagesForArtworkAsync(index),
                 Description = artwork.Description,
                 Name = artwork.Name,

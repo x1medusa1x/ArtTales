@@ -1,5 +1,6 @@
 ﻿@model PostModel
 <link rel="stylesheet" href="~/css/modal.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/lib/font-awesome/css/all.css" />
 <div class="modal-header">
    <div class="titleModal modal-title h4">
       <div class="artworkTitle">@Model.Name</div>
@@ -23,8 +24,11 @@
          </div>
       </div>
    </div>
-   <div class="share">
-      
+   <div class="share" style="padding-top: 10px">
+    <i class="fa-solid fa-share"></i>
+   </div>
+   <div class="likes" style="padding-top: 10px">
+    <i class="fa-solid fa-thumbs-up"></i>
    </div>
 </div>
 <div class="modal-footer">
@@ -32,9 +36,17 @@
 </div>
 
 <script>
-    $('document').ready(function(){
-        $("#closeBtn, #closeBtnIcon").click(function(){
-            $("#showloadmodal").modal('hide');
-        });
-    });
+if("@Model.CurrentUser" !== "" && "@Model.UserId" === "@Model.CurrentUser"){
+    $('.likes').remove();
+    $('.share').remove();
+
+}
+
+ var link = '@($"{Url.Action("UserProfile", "Home", null, Url.ActionContext.HttpContext.Request.Scheme)}/{Model.UserId}?index={Model.ArtworkId + 1}")';
+$("#closeBtn, #closeBtnIcon").click(function() {
+    $("#showloadmodal").modal('hide');
+});
+$('.share').click(function() {
+    navigator.clipboard.writeText(link);
+});
 </script>

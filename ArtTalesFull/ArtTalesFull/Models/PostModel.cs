@@ -14,6 +14,12 @@ namespace ArtTalesFull.Models
 
         public List<Images>? Images { get; set; }
 
+        public int ArtworkId { get; set; }
+
+        public string UserId { get; set; }
+
+        public string CurrentUser { get; set; }
+
         public int Likes { get; set; }
 
     }
