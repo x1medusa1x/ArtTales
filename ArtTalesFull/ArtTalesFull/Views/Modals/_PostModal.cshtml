@@ -4,7 +4,7 @@
    <div class="titleModal modal-title h4">
       <div class="artworkTitle">@Model.Name</div>
    </div>
-<button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
+<button type="button" class="close btn-close" id="closeBtnIcon" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
 <div class="modal-body">
    <div class="artworkHeadline">@Model.Headline</div>
    <div class="artworkDescription">@Model.Description</div>
@@ -28,5 +28,13 @@
    </div>
 </div>
 <div class="modal-footer">
-    <button type="button" class="submitClose btn btn-primary" data-dismiss="modal">Close</button>
+    <button type="button" class="submitClose btn btn-primary" id="closeBtn" data-dismiss="modal">Close</button>
 </div>
+
+<script>
+    $('document').ready(function(){
+        $("#closeBtn, #closeBtnIcon").click(function(){
+            $("#showloadmodal").modal('hide');
+        });
+    });
+</script>

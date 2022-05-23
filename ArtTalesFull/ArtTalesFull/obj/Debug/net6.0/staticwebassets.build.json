@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Z2XaGElg6dQq099kzQaped+PQZFuz6NChWmKtWk+O0s=",
+  "Hash": "rJM1A2/fLTvlmbknjhFJ/nMDuMhl8h9RBQpzCv1np2A=",
   "Source": "ArtTalesFull",
   "BasePath": "_content/ArtTalesFull",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "ArtTalesFull\\wwwroot",
       "Source": "ArtTalesFull",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "Pattern": "**"
     }
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "C:\\Users\\alini\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.2\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ArtTalesFull.styles.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ArtTalesFull.styles.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "ArtTalesFull.styles.css",
       "AssetKind": "All",
@@ -1051,13 +1051,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ArtTalesFull.styles.css"
+      "OriginalItemSpec": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ArtTalesFull.styles.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ArtTalesFull.bundle.scp.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ArtTalesFull.bundle.scp.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "ArtTalesFull.bundle.scp.css",
       "AssetKind": "All",
@@ -1068,13 +1068,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ArtTalesFull.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ArtTalesFull.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\css\\auth.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\css\\auth.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "css/auth.css",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\css\\auth.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\css\\defaults.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\css\\defaults.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "css/defaults.css",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\css\\defaults.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\css\\home.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\css\\home.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "css/home.css",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\css\\home.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\css\\modal.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\css\\modal.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "css/modal.css",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\css\\modal.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\css\\navbar.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\css\\navbar.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "css/navbar.css",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\css\\navbar.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\css\\site.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\css\\user.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\css\\user.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "css/user.css",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\css\\user.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\favicon.ico",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\images\\Install VALORANT.exe",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\images\\Install VALORANT.exe",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "images/Install VALORANT.exe",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Install VALORANT.exe"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\images\\ProjectKorra-1.9.3.jar",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\images\\ProjectKorra-1.9.3.jar",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "images/ProjectKorra-1.9.3.jar",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ProjectKorra-1.9.3.jar"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\images\\rhulk1.jpg",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\images\\rhulk1.jpg",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "images/rhulk1.jpg",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\images\\rhulk1.jpg"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\images\\rhulk2.jpg",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\images\\rhulk2.jpg",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "images/rhulk2.jpg",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\images\\rhulk2.jpg"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\images\\savathun1.jpg",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\images\\savathun1.jpg",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "images/savathun1.jpg",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\images\\savathun1.jpg"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\images\\savathun2.jpg",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\images\\savathun2.jpg",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "images/savathun2.jpg",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\images\\savathun2.jpg"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\images\\savathun3.jpg",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\images\\savathun3.jpg",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "images/savathun3.jpg",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\images\\savathun3.jpg"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\images\\server.jar",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\images\\server.jar",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "images/server.jar",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\images\\server.jar"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\images\\unknown.png",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\images\\unknown.png",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "images/unknown.png",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\images\\unknown.png"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\images\\worrior1.jpg",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\images\\worrior1.jpg",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "images/worrior1.jpg",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\images\\worrior1.jpg"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\images\\worrior2.jpg",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\images\\worrior2.jpg",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "images/worrior2.jpg",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\images\\worrior2.jpg"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\images\\wraith1.jpg",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\images\\wraith1.jpg",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "images/wraith1.jpg",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\images\\wraith1.jpg"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\images\\wraith2.jpg",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\images\\wraith2.jpg",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "images/wraith2.jpg",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\images\\wraith2.jpg"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\all.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\all.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/css/all.css",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\all.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/css/all.min.css",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\all.min.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\brands.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\brands.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/css/brands.css",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\brands.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\brands.min.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\brands.min.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/css/brands.min.css",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\brands.min.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\fontawesome.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\fontawesome.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/css/fontawesome.css",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\fontawesome.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/css/fontawesome.min.css",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\regular.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\regular.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/css/regular.css",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\regular.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\regular.min.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\regular.min.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/css/regular.min.css",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\regular.min.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\solid.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\solid.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/css/solid.css",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\solid.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\solid.min.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\solid.min.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/css/solid.min.css",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\solid.min.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/css/svg-with-js.css",
       "AssetKind": "All",
@@ -2380,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\svg-with-js.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/css/svg-with-js.min.css",
       "AssetKind": "All",
@@ -2397,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/css/v4-font-face.css",
       "AssetKind": "All",
@@ -2414,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v4-font-face.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/css/v4-font-face.min.css",
       "AssetKind": "All",
@@ -2431,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\v4-shims.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\v4-shims.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/css/v4-shims.css",
       "AssetKind": "All",
@@ -2448,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v4-shims.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/css/v4-shims.min.css",
       "AssetKind": "All",
@@ -2465,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/css/v5-font-face.css",
       "AssetKind": "All",
@@ -2482,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v5-font-face.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/css/v5-font-face.min.css",
       "AssetKind": "All",
@@ -2499,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\js\\all.js",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\js\\all.js",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/js/all.js",
       "AssetKind": "All",
@@ -2516,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\all.js"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/js/all.min.js",
       "AssetKind": "All",
@@ -2533,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\all.min.js"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\js\\brands.js",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\js\\brands.js",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/js/brands.js",
       "AssetKind": "All",
@@ -2550,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\brands.js"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\js\\brands.min.js",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\js\\brands.min.js",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/js/brands.min.js",
       "AssetKind": "All",
@@ -2567,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\brands.min.js"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.js",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.js",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/js/conflict-detection.js",
       "AssetKind": "All",
@@ -2584,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\conflict-detection.js"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/js/conflict-detection.min.js",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\js\\fontawesome.js",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\js\\fontawesome.js",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/js/fontawesome.js",
       "AssetKind": "All",
@@ -2618,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\fontawesome.js"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/js/fontawesome.min.js",
       "AssetKind": "All",
@@ -2635,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\js\\regular.js",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\js\\regular.js",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/js/regular.js",
       "AssetKind": "All",
@@ -2652,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\regular.js"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\js\\regular.min.js",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\js\\regular.min.js",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/js/regular.min.js",
       "AssetKind": "All",
@@ -2669,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\regular.min.js"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\js\\solid.js",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\js\\solid.js",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/js/solid.js",
       "AssetKind": "All",
@@ -2686,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\solid.js"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\js\\solid.min.js",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\js\\solid.min.js",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/js/solid.min.js",
       "AssetKind": "All",
@@ -2703,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\solid.min.js"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\js\\v4-shims.js",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\js\\v4-shims.js",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/js/v4-shims.js",
       "AssetKind": "All",
@@ -2720,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\v4-shims.js"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/js/v4-shims.min.js",
       "AssetKind": "All",
@@ -2737,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/sprites/brands.svg",
       "AssetKind": "All",
@@ -2754,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\sprites\\brands.svg"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/sprites/regular.svg",
       "AssetKind": "All",
@@ -2771,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\sprites\\regular.svg"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/sprites/solid.svg",
       "AssetKind": "All",
@@ -2788,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\sprites\\solid.svg"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/webfonts/fa-brands-400.ttf",
       "AssetKind": "All",
@@ -2805,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/webfonts/fa-brands-400.woff2",
       "AssetKind": "All",
@@ -2822,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/webfonts/fa-regular-400.ttf",
       "AssetKind": "All",
@@ -2839,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/webfonts/fa-regular-400.woff2",
       "AssetKind": "All",
@@ -2856,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/webfonts/fa-solid-900.ttf",
       "AssetKind": "All",
@@ -2873,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/webfonts/fa-solid-900.woff2",
       "AssetKind": "All",
@@ -2890,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/webfonts/fa-v4compatibility.ttf",
       "AssetKind": "All",
@@ -2907,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/font-awesome/webfonts/fa-v4compatibility.woff2",
       "AssetKind": "All",
@@ -2924,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2941,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2958,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2975,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2992,10 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -3009,10 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -3026,10 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -3043,10 +3043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -3060,10 +3060,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -3077,10 +3077,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -3094,10 +3094,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -3111,10 +3111,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "ArtTalesFull",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\wwwroot\\",
       "BasePath": "_content/ArtTalesFull",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

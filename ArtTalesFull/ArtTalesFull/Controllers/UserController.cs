@@ -37,6 +37,15 @@ namespace ArtTalesFull.Controllers
         }
 
         [HttpGet]
+        public async Task<ActionResult> GetOnLoadPostPartialView(int index, string artworkId)
+        {
+            if (index == 0)
+                return Ok();
+            var artworks = await unitOfWork.ArtworkRepository.GetAllArtworksForUserAsync(artworkId);
+            return PartialView("~/Views/Modals/_PostModal.cshtml", await artworkService.GetPostAsync(artworks[index - 1].Id));
+        }
+
+        [HttpGet]
         public async Task<ActionResult> GetEditPostPartialView(int index)
         {
             return PartialView("~/Views/Modals/_EditPostModal.cshtml", await artworkService.EditPostAsync(index));

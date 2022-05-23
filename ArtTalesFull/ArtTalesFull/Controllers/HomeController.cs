@@ -31,9 +31,14 @@ namespace ArtTalesFull.Controllers
             return View();
         }
 
-        public IActionResult UserProfile(string id)
+        public IActionResult UserProfile(string id, int index)
         {
-            return View((object)id);
+            var userProfileModel = new UserProfileModel()
+            {
+                id = id,
+                index = index
+            };
+            return View(userProfileModel);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

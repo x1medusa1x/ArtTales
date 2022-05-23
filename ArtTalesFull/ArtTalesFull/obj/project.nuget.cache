@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oKVjT3pj0pO7xVp0dUMuz/vIT6ORSCqDqk/dLxNWBuz3oxokiaDiOKamsPw0QiZm7mQ+jReicLYQvsdfg6tJsw==",
+  "dgSpecHash": "inC20CntN2XNGkG0gVp1DuW/fehn7GCeULJH6cospogXM1K11NB7v5YNBQrLRwv2aU+VSQxHT4OquMSI7l1PXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\WAD APP\\ArtTalesFull\\ArtTalesFull\\ArtTalesFull.csproj",
+  "projectFilePath": "C:\\Users\\alini\\Desktop\\ANUL 3 SEM 2\\ArtTales\\ArtTalesFull\\ArtTalesFull\\ArtTalesFull.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alini\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\alini\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

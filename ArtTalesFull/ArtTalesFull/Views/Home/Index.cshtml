@@ -56,13 +56,11 @@
                                     else {
                                         <div class="cover">
                                             @{
-                                                var dict = new Dictionary<string, string>
-                                                {
-                                                    {"id", user.Id}
-                                                };
+                                                var id = user.Id;
+                                                var index = 0;
 
-                                    }
-                                            <a class="name" asp-controller="Home" asp-action="UserProfile" asp-all-route-data="@dict">@user.AppUsername</a>
+                                            }
+                                            <a class="name" asp-controller="Home" asp-action="UserProfile" asp-route-id="@id" asp-route-index="@index">@user.AppUsername</a>
 
                                         </div>
                                     }
