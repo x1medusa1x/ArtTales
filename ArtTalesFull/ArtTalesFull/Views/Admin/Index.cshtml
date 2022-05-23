@@ -46,9 +46,12 @@
                                 }
                </td>
                <td class="">
-                  <button type="button" class=" btn-icon btn-simple btn btn-info btn-sm">
+               @if (user.Id != "6101764e-855a-461f-94f4-62c7a3527ea5")
+                                {
+                  <a asp-controller="Home" asp-action="UserProfile" asp-route-id="@user.Id" asp-route-index="0" class=" btn-icon btn-simple btn btn-info btn-sm" style="font-size: 15px">
                     <i class="fa-solid fa-user"></i>
-                  </button>
+                  </a>
+                                }
                </td>
             </tr>
             }
