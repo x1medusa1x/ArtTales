@@ -27,7 +27,7 @@
    <div class="share" style="padding-top: 10px">
     <i class="fa-solid fa-share"></i>
    </div>
-   <div class="likes" onclick="onClick()" style="padding-top: 10px">
+   <div class="likes" onclick="onClick()" style="padding-top: 10px; cursor: pointer">
     <i class="fa-solid fa-thumbs-up"></i>
    </div>
 </div>
@@ -52,6 +52,8 @@ $('.share').click(function() {
 
 function onClick(){
     if(liked % 2 === 0){
+        $(".likes").append("<i class='fa-solid fa-thumbs-down'></i>");
+        $(".fa-thumbs-up").remove();
         var likeModel = {
             ArtworkId: "@Model.Id",
             Value: 1
@@ -67,6 +69,8 @@ function onClick(){
         }
         });
     }else{
+        $(".likes").append("<i class='fa-solid fa-thumbs-up'></i>");
+        $(".fa-thumbs-down").remove();
         var likeModel = {
             ArtworkId: "@Model.Id",
             Value: -1

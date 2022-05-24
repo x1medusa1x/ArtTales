@@ -58,5 +58,12 @@ namespace ArtTalesFull.Controllers
         {
             return PartialView("~/Views/Modals/_EditPostModal.cshtml", await artworkService.EditPostAsync(index));
         }
+
+        [HttpPost]
+        public async Task<IActionResult> UpdateProfilePic(IFormFile profilePic)
+        {
+            await artworkService.ChangeProfilePic(profilePic, User);
+            return Ok();
+        }
     }
 }

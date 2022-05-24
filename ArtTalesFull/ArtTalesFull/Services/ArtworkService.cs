@@ -224,5 +224,43 @@ namespace ArtTalesFull.Services
             artwork.Likes += value;
             await unitOfWork.SaveAsync();
         }
+
+        public async Task ChangeProfilePic(IFormFile profilePic, ClaimsPrincipal claimsPrincipal)
+        {
+            var user = await userManager.GetUserAsync(claimsPrincipal);
+            var fileName = Path.GetFileName(profilePic.FileName);
+
+            fileName = String.Concat(fileName.Where(c => !Char.IsWhiteSpace(c)));
+
+            var fileNameWithoutExtension = Path.GetFileNameWithoutExtension(fileName);
+
+            var extension = Path.GetExtension(fileName);
+
+            fileNameWithoutExtension = String.Concat(fileNameWithoutExtension.Where(c => Char.IsLetterOrDigit(c)));
+
+            fileName = $"{fileNameWithoutExtension}_profilePic{extension}";
+
+            var filepath = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Images")).Root + $@"\{fileName}";
+
+            using (FileStream fs = System.IO.File.Create(filepath))
+            {
+                profilePic.CopyTo(fs);
+                fs.Flush();
+            }
+
+            Images image = new()
+            {
+                ArtworkId = -1,
+                Image = fileName
+            };
+
+            var updateUser = await unitOfWork.UserRepository.GetByIdAsync(user.Id);
+
+            updateUser.ProfilePic = fileName;
+
+            var addedImage = await unitOfWork.ImageRepository.AddAsync(image);
+
+            await unitOfWork.SaveAsync();
+        }
     }
 }
