@@ -18,6 +18,11 @@ namespace ArtTalesFull.Repositories
             return await dbContext.Set<ApplicationUser>().ToListAsync();
         }
 
+        public async Task<List<ApplicationUser>> GetAllUsersWithNameAsync(string name)
+        {
+            return await dbContext.Set<ApplicationUser>().Where(x => x.AppUsername == name).ToListAsync();
+        }
+
         public async Task<ApplicationUser> GetByIdAsync(string id)
         {
             return await dbContext.Set<ApplicationUser>().SingleOrDefaultAsync(x => x.Id == id);

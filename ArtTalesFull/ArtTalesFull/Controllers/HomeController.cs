@@ -26,9 +26,14 @@ namespace ArtTalesFull.Controllers
             GlobalVariables.PathName = "Home";
         }
 
-        public IActionResult Index()
+        [HttpGet]
+        public IActionResult Index(string name = "")
         {
-            return View();
+            var model = new SearchHome()
+            {
+                Name = name,
+            };
+            return View(model);
         }
 
         public IActionResult UserProfile(string id, int index)
