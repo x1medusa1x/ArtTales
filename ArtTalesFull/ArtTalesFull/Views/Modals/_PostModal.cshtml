@@ -1,4 +1,9 @@
-﻿@model PostModel;
+﻿@using ArtTalesFull.Abstractions;
+@using Microsoft.AspNetCore.Identity;
+@using ArtTalesFull.Entities;
+@model PostModel;
+@inject SignInManager<ApplicationUser> SignInManager;
+@inject UserManager<ApplicationUser> UserManager;
 <link rel="stylesheet" href="~/css/modal.css" asp-append-version="true" />
 <link rel="stylesheet" href="~/lib/font-awesome/css/all.css" />
 <div class="modal-header">
@@ -18,18 +23,21 @@
                     {
                     <div class="item">
                    <div class="box" style="background-image:url(/images/@image.Image);"></div>
-                </div>
+                        </div>
                     }
-            }
-         </div>
-      </div>
-   </div>
-   <div class="share" style="padding-top: 10px">
-    <i class="fa-solid fa-share"></i>
-   </div>
-   <div class="likes" onclick="onClick()" style="padding-top: 10px; cursor: pointer">
-    <i class="fa-solid fa-thumbs-up"></i>
-   </div>
+                }
+            </div>
+        </div>
+    </div>
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <div class="share" style="padding-top: 10px">
+            <i class="fa-solid fa-share"></i>
+        </div>
+        <div class="likes" onclick="onClick()" style="padding-top: 10px; cursor: pointer">
+            <i class="fa-solid fa-thumbs-up"></i>
+        </div>
+    }
 </div>
 <div class="modal-footer">
     <button type="button" class="submitClose btn btn-primary" id="closeBtn" data-dismiss="modal">Close</button>
