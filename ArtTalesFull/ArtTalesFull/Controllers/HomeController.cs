@@ -59,7 +59,7 @@ namespace ArtTalesFull.Controllers
             return signInManager.IsSignedIn(User) ?
                     ((await userManager.GetUserAsync(User)).Disabled == false ?
                     PartialView("~/Views/Modals/_UploadModal.cshtml", await artworkService.GetUploadAsync()) :
-                    PartialView("~/Views/Modals/_DisabledUser.cshtml")) :
+                    PartialView("~/Views/Modals/_DisabledUserModal.cshtml")) :
                 PartialView("~/Views/Modals/_NotLoggedUploadModal.cshtml");
 
         }

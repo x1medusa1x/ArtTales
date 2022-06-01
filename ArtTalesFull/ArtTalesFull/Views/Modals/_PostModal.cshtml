@@ -29,11 +29,12 @@
             </div>
         </div>
     </div>
-    @if (SignInManager.IsSignedIn(User))
+
+    <div class="share" style="padding-top: 10px">
+        <i class="fa-solid fa-share"></i>
+    </div>
+    @if (SignInManager.IsSignedIn(User) && (await UserManager.GetUserAsync(User)).Disabled == false)
     {
-        <div class="share" style="padding-top: 10px">
-            <i class="fa-solid fa-share"></i>
-        </div>
         <div class="likes" onclick="onClick()" style="padding-top: 10px; cursor: pointer">
             <i class="fa-solid fa-thumbs-up"></i>
         </div>
